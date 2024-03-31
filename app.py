@@ -9,8 +9,8 @@ app = Flask(__name__)
 
 API_ENDPOINT = "https://api.edamam.com/api/recipes/v2"
 APP_ID = "3cbc3c7a"
-APP_KEY = "c20c6a318eeef2df0da1867066f61d29"
-GEN_API_KEY = "AIzaSyBMstHXax4CPEr_SlgrPV18MToDuXu8zLU"
+APP_KEY = "[EDAMAM_API_KEY]"
+GEN_API_KEY = "[_GEMINI_API_KEY_]"
 
 @app.route("/")
 def display_recipies():
